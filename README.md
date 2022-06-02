@@ -1,4 +1,4 @@
-# Deploying Django to AWS ECS with Terraform
+# Deploying Application to AWS ECS with Terraform
 
 Sets up the following AWS infrastructure:
 
