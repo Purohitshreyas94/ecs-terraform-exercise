@@ -5,30 +5,6 @@ variable "region" {
   default     = "us-east-1"
 }
 
-variable "owner" {
-  description = "The name of the Owner"
-  type        = string
-  default     = "Shreyas Purohit"
-}
-
-variable "owner_email" {
-  description = "The email of the Owner"
-  type        = string
-  default     = "shreyas@sigmoidanalytics.com"
-}
-
-variable "environment" {
-  description = "Environment like dev, staging, prod"
-  type        = string
-  default     = "prod"
-}
-
-variable "purpose" {
-  description = "Enter the Purpose"
-  type        = string
-  default     = "Terraform ECS Demo"
-}
-
 # networking
 
 variable "public_subnet_1_cidr" {
