@@ -54,5 +54,6 @@ Sets up the following AWS infrastructure:
     $ export AWS_SECRET_ACCESS_KEY="YOUR_AWS_SECRET_ACCESS_KEY"
 
     $ terraform init
+    $ terraform plan
     $ terraform apply
     ```
